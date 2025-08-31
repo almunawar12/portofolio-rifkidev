@@ -14,7 +14,7 @@ const projects = [
       "A web-based system for monitoring electricity usage in real-time with analytics and reporting features.",
     image: "https://picsum.photos/500/300?random=1",
     technologies: ["React", "Node.js"],
-    github: "https://github.com/mrifkialmunawar",
+    github: "https://github.com/almunawar12/smart-meter-cam",
     demo: "#",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       "E-commerce platform for selling herbal medicines with order processing management.",
     image: "https://picsum.photos/500/300?random=2",
     technologies: ["laravel", "mysql", "tailwin css"],
-    github: "https://github.com/mrifkialmunawar",
+    github: "https://github.com/almunawar12/herbal-store",
     demo: "#",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "A microservices-based inventory management system for retail applications with real-time updates.",
     image: "https://picsum.photos/500/300?random=3",
     technologies: ["NestJS", "Next.js", "PostgreSQL", "Docker"],
-    github: "https://github.com/mrifkialmunawar",
+    github: "https://github.com/almunawar12/nab-dashboard",
     demo: "#",
   },
 ];
