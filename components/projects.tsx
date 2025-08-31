@@ -12,17 +12,17 @@ const projects = [
     title: "Electricity Usage Monitoring System",
     description:
       "A web-based system for monitoring electricity usage in real-time with analytics and reporting features.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["React", "Node.js", "PostgreSQL", "Chart.js"],
+    image: "https://picsum.photos/500/300?random=1",
+    technologies: ["React", "Node.js"],
     github: "https://github.com/mrifkialmunawar",
     demo: "#",
   },
   {
-    title: "iPhone Sales Application",
+    title: "Herbal Store",
     description:
-      "An e-commerce platform for iPhone sales with inventory management and order processing.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Next.js", "Node.js", "Express", "MongoDB"],
+      "E-commerce platform for selling herbal medicines with order processing management.",
+    image: "https://picsum.photos/500/300?random=2",
+    technologies: ["laravel", "mysql", "tailwin css"],
     github: "https://github.com/mrifkialmunawar",
     demo: "#",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Retail Inventory System",
     description:
       "A microservices-based inventory management system for retail applications with real-time updates.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://picsum.photos/500/300?random=3",
     technologies: ["NestJS", "Next.js", "PostgreSQL", "Docker"],
     github: "https://github.com/mrifkialmunawar",
     demo: "#",

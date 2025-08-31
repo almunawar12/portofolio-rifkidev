@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   const ref = useRef(null);
@@ -39,10 +40,10 @@ export default function About() {
                 <div className="flex items-center gap-3">
                   <Mail size={18} className="text-emerald-600" />
                   <a
-                    href="mailto:mrifkialmunawar442@gmail.com"
+                    href="mailto:rifkialmunawar34@gmail.com"
                     className="text-gray-700 hover:text-emerald-600 transition-colors"
                   >
-                    mrifkialmunawar442@gmail.com
+                    rifkialmunawar34@gmail.com
                   </a>
                 </div>
 
@@ -66,24 +67,24 @@ export default function About() {
                 <div className="flex items-center gap-3">
                   <Github size={18} className="text-emerald-600" />
                   <a
-                    href="https://github.com/mrifkialmunawar"
+                    href="https://github.com/almunawar12"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-emerald-600 transition-colors"
                   >
-                    github.com/mrifkialmunawar
+                    github.com/almunawar12
                   </a>
                 </div>
 
                 <div className="flex items-center gap-3">
                   <Linkedin size={18} className="text-emerald-600" />
                   <a
-                    href="https://linkedin.com/in/mrifkialmunawar"
+                    href="https://linkedin.com/in/moh-rifki-almunawar"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-emerald-600 transition-colors"
                   >
-                    linkedin.com/in/mrifkialmunawar
+                    linkedin.com/in/moh-rifki-almunawar
                   </a>
                 </div>
               </div>
@@ -91,8 +92,10 @@ export default function About() {
 
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
-                <img
-                  src="/placeholder.svg?height=400&width=400"
+                <Image
+                  src="/profile.jpg"
+                  width={400}
+                  height={400}
                   alt="Moh. Rifki Almunawar"
                   className="w-full h-full object-cover"
                 />
